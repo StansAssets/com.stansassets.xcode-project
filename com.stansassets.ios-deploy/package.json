@@ -1,9 +1,9 @@
 {
-  "name": "com.stansassets.ios-deploy",
-  "displayName": "Stans Assets - IOS Deploy",
+  "name": "com.stansassets.xcode",
+  "displayName": "Stans Assets - XCode",
   "version": "0.0.1-preview",
   "unity": "2019.3",
-  "description": "Package allows you add additional params to the Xcode project during unity building phase.",
+  "description": "Package allows you add additional params to the XCode project during unity building phase.",
   "dependencies": {
     "com.stansassets.foundation": "1.0.13",
     "com.stansassets.plugins-dev-kit": "1.0.2"
@@ -26,11 +26,11 @@
 
   "homepage": "https://api.stansassets.com/",
   "bugs": {
-    "url": "https://github.com/StansAssets/com.stansassets.ios-deploy/issues",
+    "url": "https://github.com/StansAssets/com.stansassets.xcode/issues",
     "email" : "support@stansassets.com"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:StansAssets/com.stansassets.ios-deploy.git"
+    "url": "ssh://git@github.com:StansAssets/com.stansassets.xcode.git"
   }
 }
