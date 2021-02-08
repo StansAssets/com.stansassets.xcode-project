@@ -1,7 +1,9 @@
 {
-    "name": "StansAssets.PackageSample.Samples",
+    "name": "StansAssets.IOS.Deploy.Editor",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

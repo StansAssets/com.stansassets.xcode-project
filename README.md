@@ -39,7 +39,7 @@ I will list attributes that will affect how your package is displayed on the npm
 This is how `package.json` looks like in our template repository:
 ```json
 {
-  "name": "com.stansassets.package-sample",
+  "name": "com.stansassets.ios-deploy",
   "displayName": "Stans Assets - Package Sample",
   "version": "0.0.1-preview",
   "unity": "2019.3",
@@ -77,7 +77,7 @@ This is how `package.json` looks like in our template repository:
 * `.gitignore` - Git ignore file designed to this specific repository structure.
 * `README.md` - text file that introduces and explains a project. 
 * `PackageSampleProject` - Team shared project for package development.
-* `com.stansassets.package-sample` - UMP package.
+* `com.stansassets.ios-deploy` - UMP package.
 
 This structure was chosen for the following reasons:
 1. Scalability. Since the package isn't located in the repository root, you can host more than one package in the repository.
@@ -98,7 +98,7 @@ This structure was chosen for the following reasons:
      }
    ],
   "dependencies": {
-    "com.stansassets.package-sample": "file:../../com.stansassets.package-sample",
+    "com.stansassets.ios-deploy": "file:../../com.stansassets.ios-deploy",
 ```
 
 Note:

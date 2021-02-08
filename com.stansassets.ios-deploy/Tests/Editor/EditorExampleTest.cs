@@ -5,7 +5,7 @@
 //
 // For embedded packages you don’t need to explicitly enable tests because embedded packages are in development.
 // However, for other types of dependencies, you need to add the `testables` attribute to the Project `manifest.json`
-// "testables" : ["com.stansassets.package-sample"]
+// "testables" : ["com.stansassets.ios-deploy"]
 // -----------------------------------------------------------------------------
 
 using UnityEngine.TestTools;
@@ -13,7 +13,7 @@ using NUnit.Framework;
 using System.Collections;
 using UnityEngine;
 
-namespace StansAssets.PackageSample.Editor.Tests
+namespace StansAssets.IOS.Deploy.Editor.Tests
 {
     class EditorExampleTest
     {
