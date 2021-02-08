@@ -1,0 +1,31 @@
+{
+  "name": "com.stansassets.package-sample",
+  "displayName": "Stans Assets - Package Sample",
+  "version": "0.0.1-preview",
+  "unity": "2019.3",
+  "description": "Package Sample.",
+  "dependencies": {
+    "com.stansassets.foundation": "1.0.2"
+  },
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Stan's Assets",
+    "email": "stan@stansassets.com",
+    "url": "https://stansassets.com/"
+  },
+  
+  "homepage": "https://api.stansassets.com/",
+  "bugs": {
+    "url": "https://github.com/StansAssets/com.stansassets.foundation/issues",
+    "email" : "support@stansassets.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:StansAssets/com.stansassets.foundation.git"
+  }
+}
