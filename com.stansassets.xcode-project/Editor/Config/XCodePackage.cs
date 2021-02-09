@@ -13,6 +13,11 @@
         /// <summary>
         /// Package full name (id).
         /// </summary>
-        public const string PackageName = "com.stansassets.xcode";
+        public const string PackageName = "com.stansassets.xcode-project";
+
+        /// <summary>
+        /// Package web documentation url.
+        /// </summary>
+        public const string DocumentationUrl = "https://github.com/StansAssets/com.stansassets.xcode-project/wiki";
     }
 }

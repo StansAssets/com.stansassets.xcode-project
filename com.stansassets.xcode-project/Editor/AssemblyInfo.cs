@@ -1,3 +1,4 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("StansAssets.IOS.Deploy.EditorTests")]
+[assembly: InternalsVisibleTo("SA.iOS.Editor")]
+[assembly: InternalsVisibleTo("SA.CrossPlatform.Editor")]

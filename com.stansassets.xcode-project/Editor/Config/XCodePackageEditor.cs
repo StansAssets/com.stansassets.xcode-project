@@ -1,7 +1,6 @@
 using StansAssets.Foundation.Editor;
-using StansAssets.IOS.XCode;
 
-namespace SA.iOS.XCode
+namespace StansAssets.IOS.XCode
 {
     static class XCodePackageEditor
     {
