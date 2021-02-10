@@ -3,7 +3,7 @@
   "displayName": "Stans Assets - XCode",
   "version": "0.0.1-preview",
   "unity": "2019.3",
-  "description": "Package allows you add additional params to the XCode project during unity building phase.",
+  "description": "The package allows you to add additional params to the XCode project during the unity building phase.",
   "keywords": [
     "stansassets",
     "ios",
