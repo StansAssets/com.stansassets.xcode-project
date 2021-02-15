@@ -13,7 +13,7 @@ And sure thing, there is a [C# API](https://api.stansassets.com/xcode-project/) 
 
 [API Reference](https://api.stansassets.com/xcode-project/) | [Forum](https://myforum) | [Wiki](https://github.com/StansAssets/com.stansassets.xcode-project/wiki)
 
-### Install from NPM
+## Install from NPM
 * Navigate to the `Packages` directory of your project.
 * Adjust the [project manifest file](https://docs.unity3d.com/Manual/upm-manifestPrj.html) `manifest.json` in a text editor.
 * Ensure `https://registry.npmjs.org/` is part of `scopedRegistries`.
@@ -40,7 +40,7 @@ A minimal example ends up looking like this. Please note that the version `X.Y.Z
   ```
 * Switch back to the Unity software and wait for it to finish importing the added package.
 
-### Install from OpenUPM
+## Install from OpenUPM
 * Install openupm-cli `npm install -g openupm-cli` or `yarn global add openupm-cli`
 * Enter your unity project folder `cd <YOUR_UNITY_PROJECT_FOLDER>`
 * Install package `openupm add com.stansassets.ios-deploy`
