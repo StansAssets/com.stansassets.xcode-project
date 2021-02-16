@@ -7,7 +7,7 @@ And sure thing, there is a [C# API](https://api.stansassets.com/xcode-project/) 
 
 [![NPM Package](https://img.shields.io/npm/v/com.stansassets.ios-deploy)](https://www.npmjs.com/package/com.stansassets.xcode-project)
 [![openupm](https://img.shields.io/npm/v/com.stansassets.xcode-project?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.stansassets.xcode-project/)
-[![Licence](https://img.shields.io/npm/l/com.stansassets.ios-deploy)](https://github.com/StansAssets/com.stansassets.xcode-project/blob/master/LICENSE)
+[![Licence](https://img.shields.io/npm/l/com.stansassets.ios-deploy)](https://github.com/StansAssets/com.stansassets.xcode-project/blob/master/LICENSE.md)
 [![Issues](https://img.shields.io/github/issues/StansAssets/com.stansassets.ios-deploy)](https://github.com/StansAssets/com.stansassets.xcode-project/issues)
 
 
