@@ -1,5 +1,5 @@
 namespace StansAssets.IOS.XCode
 {
     [System.Serializable]
-    class XCodeEmbedFramework : XCodeAsset { }
+    public class XCodeEmbedFramework : XCodeAsset { }
 }
