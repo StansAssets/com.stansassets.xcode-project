@@ -1,8 +1,6 @@
 {
     "name": "StansAssets.IOS.XCode",
     "references": [
-        "Tests",
-        "SA.Foundation",
         "StansAssets.Foundation.Editor",
         "StansAssets.Foundation",
         "StansAssets.Plugins",
