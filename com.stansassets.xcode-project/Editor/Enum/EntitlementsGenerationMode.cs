@@ -1,6 +1,6 @@
 namespace StansAssets.IOS.XCode
 {
-    enum EntitlementsGenerationMode
+    public enum EntitlementsGenerationMode
     {
         Automatic,
         Manual,

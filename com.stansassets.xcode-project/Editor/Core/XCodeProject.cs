@@ -13,6 +13,11 @@ namespace StansAssets.IOS.XCode
         public static XCodeCapabilitySettings Capability => XCodeProjectSettings.Instance.Capability;
 
         /// <summary>
+        /// Project Settings.
+        /// </summary>
+        public static XCodeProjectSettings Settings => XCodeProjectSettings.Instance;
+
+        /// <summary>
         /// Sets a build property to the given value in all build configurations.
         /// </summary>
         /// <param name="name">The name of the build property. Example: "ENABLE_BITCODE"</param>
