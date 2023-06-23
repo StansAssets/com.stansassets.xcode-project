@@ -38,7 +38,7 @@ namespace StansAssets.IOS.XCode
             RegisterAppLanguages();
 
             AddFlags(proj, targetGuid);
-            AddLibraries(proj, targetGuid);
+            AddLibraries(proj, frameworkTargetGuid);
             AddFrameworks(proj, frameworkTargetGuid, target);
             AddEmbeddedFrameworks(proj, targetGuid);
             AddPlistVariables(projectPath);
@@ -375,7 +375,7 @@ namespace StansAssets.IOS.XCode
 
         static void AddLibraries(PBXProject proj, string targetGuid)
         {
-            foreach (var lib in XCodeProjectSettings.Instance.Libraries) proj.AddFrameworkToProject(targetGuid, lib.FullName, lib.IsOptional);
+            foreach (var lib in XCodeProjectSettings.Instance.Libraries) proj.AddFileToBuild(targetGuid, lib.FullName);
         }
 
         static void CopyAssetFiles(PBXProject proj, string pathToBuiltProject, string targetGUID)
