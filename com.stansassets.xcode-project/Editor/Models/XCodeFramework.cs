@@ -64,7 +64,7 @@ namespace StansAssets.IOS.XCode
         public XCodeFramework(string frameworkName, bool optional = false)
         {
             frameworkName = frameworkName.Replace(".framework", string.Empty);
-            FrameworkName = EnumUtility.ParseEnum<XCodeFrameworkName>(frameworkName);
+            FrameworkName = EnumUtility.ParseOrDefault<XCodeFrameworkName>(frameworkName);
 
             m_IsOptional = optional;
         }
